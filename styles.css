@@ -1,0 +1,79 @@
+
+.topnav {
+    overflow:hidden;
+background: url("logistics.jpeg")fixed;
+height: 400px;
+}
+
+.topnav a {
+    float: right;
+    padding: 7px;
+    font: initial;    
+    justify-content: center;
+    align-items: center
+}
+
+.topnav a:hover{
+background-color: gray;
+}
+    
+.topnav h2{
+color: rgb(179, 156, 23);
+float: left;
+padding: 5px;
+justify-content: center;
+align-items: center
+}
+
+.topnav h2 {
+margin-top: 1px;
+
+}
+.topnav a {
+    color: rgb(179, 156, 23);
+    }
+
+ .topnav h1 {
+        float: left;
+        color: rgb(255, 255, 255);
+        }
+
+.tagline {
+color: black;
+
+}
+
+
+
+.column1{
+float:left;
+Width: 33.33%;
+}
+
+.column2{
+    float:middle;
+    Width: 33.33%;
+    }
+
+.column3{
+    float:middle;
+    Width: 33.33%;
+        }
+.row:{
+    display: table;
+    clear: both;
+ 
+  }
+
+  @media screen and (max-width: 600px) 
+    .column {
+      width: 100%;
+    }
+
+.footer{
+    background-color: rgb(194, 94, 32);
+    padding: 20px;
+    text-align: center;
+
+
+}
